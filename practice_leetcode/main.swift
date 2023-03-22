@@ -2,10 +2,7 @@
 //  main.swift
 //  practice_leetcode
 //
-//  Created by John Hur on 2022/12/15.
+//  Created by John Hur on 2023/03/22.
 //
 
 import Foundation
-
-print("Hello, World!")
-

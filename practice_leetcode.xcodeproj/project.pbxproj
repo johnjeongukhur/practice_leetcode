@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56AE5C1B294B4E9900AE9D43 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AE5C1A294B4E9900AE9D43 /* main.swift */; };
+		5629BDB329CB2A07003E6EA6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5629BDB229CB2A07003E6EA6 /* main.swift */; };
+		567D2E1C296DA63000E7B594 /* 03_Isomorphic Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D2E1B296DA61C00E7B594 /* 03_Isomorphic Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5629BDB229CB2A07003E6EA6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		567D2E1329639D8800E7B594 /* 230110_217_ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 230110_217_ContainsDuplicate.swift; sourceTree = "<group>"; };
+		567D2E1B296DA61C00E7B594 /* 03_Isomorphic Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03_Isomorphic Strings.swift"; sourceTree = "<group>"; };
 		56AE5C17294B4E9900AE9D43 /* practice_leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practice_leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
-		56AE5C1A294B4E9900AE9D43 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		56AE5C1A294B4E9900AE9D43 /* 231230_ransomNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 231230_ransomNote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5629BDAF29C89E54003E6EA6 /* 01_ContainsDuplicate */ = {
+			isa = PBXGroup;
+			children = (
+				567D2E1329639D8800E7B594 /* 230110_217_ContainsDuplicate.swift */,
+			);
+			path = 01_ContainsDuplicate;
+			sourceTree = "<group>";
+		};
+		5629BDB029C8A008003E6EA6 /* 02_ransomNote */ = {
+			isa = PBXGroup;
+			children = (
+				56AE5C1A294B4E9900AE9D43 /* 231230_ransomNote.swift */,
+			);
+			path = 02_ransomNote;
+			sourceTree = "<group>";
+		};
+		5629BDB129CB29ED003E6EA6 /* 03_Isomorphic Strings */ = {
+			isa = PBXGroup;
+			children = (
+				567D2E1B296DA61C00E7B594 /* 03_Isomorphic Strings.swift */,
+			);
+			path = "03_Isomorphic Strings";
+			sourceTree = "<group>";
+		};
 		56AE5C0E294B4E9900AE9D43 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +85,10 @@
 		56AE5C19294B4E9900AE9D43 /* practice_leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				56AE5C1A294B4E9900AE9D43 /* main.swift */,
+				5629BDAF29C89E54003E6EA6 /* 01_ContainsDuplicate */,
+				5629BDB029C8A008003E6EA6 /* 02_ransomNote */,
+				5629BDB129CB29ED003E6EA6 /* 03_Isomorphic Strings */,
+				5629BDB229CB2A07003E6EA6 /* main.swift */,
 			);
 			path = practice_leetcode;
 			sourceTree = "<group>";
@@ -120,7 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56AE5C1B294B4E9900AE9D43 /* main.swift in Sources */,
+				5629BDB329CB2A07003E6EA6 /* main.swift in Sources */,
+				567D2E1C296DA63000E7B594 /* 03_Isomorphic Strings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
