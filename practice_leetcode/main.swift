@@ -2,63 +2,56 @@
 //  main.swift
 //  practice_leetcode
 //
-//  Created by John Hur on 2023/03/24.
+//  Created by John Hur on 2023/03/29.
 //
+
+/*
+ 21. Merge Two Sorted Lists
+ 
+ You are given the heads of two sorted linked lists list1 and list2.
+
+ Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
+
+ Return the head of the merged linked list.
+
+ Example 1:
+ 
+ Input: list1 = [1,2,4], list2 = [1,3,4]
+ Output: [1,1,2,3,4,4]
+
+ 
+ 
+ */
 
 import Foundation
 
-class LinkedListNode<T: Equatable> {
-    var value: T
-    var next: LinkedListNode?
-    
-    init(value: T) {
-        self.value = value
-    }
+public class ListNode {
+    public var val: Int
+    public var next: ListNode?
+    public init() { self.val = 0; self.next = nil; }
+    public init(_ val: Int) { self.val = val; self.next = nil; }
+    public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
 }
 
-class LinkedList<T: Equatable> {
-    var head: LinkedListNode<T>?
-    var tail: LinkedListNode<T>?
+let list1 = ListNode(1)
+list1.next = ListNode(2)
+list1.next = ListNode(4)
+
+let list2 = ListNode(1)
+list2.next = ListNode(3)
+list2.next = ListNode(4)
+
+
+func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
+    var result = ListNode()
     
-    // 삽입
-    func append(_ value: T) {
-        let newNode = LinkedListNode(value: value)
-        if let tailNode = tail {
-            tailNode.next = newNode
-            tail = newNode
-        } else {
-            head = newNode
-            tail = newNode
-        }
-    }
-    // 검색
-    func search(_ value: T) -> LinkedListNode<T>? {
-        var currentNode = head
-        while let node = currentNode {
-            if node.value == value {
-                return node
-            }
-            currentNode = node.next
-        }
-        return nil
+    
+    
+    if let va = list1?.val {
+        
     }
     
+    return list1
 }
 
-var list1 = LinkedListNode(value: 2)
-list1.next = LinkedListNode(value: 5)
-list1.next?.next = LinkedListNode(value: 10)
-
-var list2 = LinkedList<Int>()
-list2.append(1)
-list2.append(2)
-list2.append(3)
-list2.append(4)
-
-if let value = list2.search(3) {
-    print("답 \(value)")
-} else {
-    print("찾는 결과가 없습니다.")
-}
-
-print("\(list1)")
+mergeTwoLists(list1, list2)

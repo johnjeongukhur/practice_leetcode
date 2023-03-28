@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5629BDB329CB2A07003E6EA6 /* 04_String_isSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5629BDB229CB2A07003E6EA6 /* 04_String_isSubsequence.swift */; };
-		5629BDB629CCA82C003E6EA6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5629BDB529CCA82C003E6EA6 /* main.swift */; };
+		5629BDB629CCA82C003E6EA6 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5629BDB529CCA82C003E6EA6 /* LinkedList.swift */; };
+		5629BDC529D349D4003E6EA6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5629BDC429D349D4003E6EA6 /* main.swift */; };
 		567D2E1C296DA63000E7B594 /* 03_Isomorphic Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D2E1B296DA61C00E7B594 /* 03_Isomorphic Strings.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +27,8 @@
 
 /* Begin PBXFileReference section */
 		5629BDB229CB2A07003E6EA6 /* 04_String_isSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 04_String_isSubsequence.swift; sourceTree = "<group>"; };
-		5629BDB529CCA82C003E6EA6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5629BDB529CCA82C003E6EA6 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		5629BDC429D349D4003E6EA6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		567D2E1329639D8800E7B594 /* 230110_217_ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 230110_217_ContainsDuplicate.swift; sourceTree = "<group>"; };
 		567D2E1B296DA61C00E7B594 /* 03_Isomorphic Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03_Isomorphic Strings.swift"; sourceTree = "<group>"; };
 		56AE5C17294B4E9900AE9D43 /* practice_leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practice_leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,14 @@
 			path = 04_String_isSubsequence;
 			sourceTree = "<group>";
 		};
+		5629BDC629D349EC003E6EA6 /* Data_Structure */ = {
+			isa = PBXGroup;
+			children = (
+				5629BDB529CCA82C003E6EA6 /* LinkedList.swift */,
+			);
+			path = Data_Structure;
+			sourceTree = "<group>";
+		};
 		56AE5C0E294B4E9900AE9D43 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +105,12 @@
 		56AE5C19294B4E9900AE9D43 /* practice_leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				5629BDC629D349EC003E6EA6 /* Data_Structure */,
 				5629BDAF29C89E54003E6EA6 /* 01_ContainsDuplicate */,
 				5629BDB029C8A008003E6EA6 /* 02_ransomNote */,
 				5629BDB129CB29ED003E6EA6 /* 03_Isomorphic Strings */,
 				5629BDB429CCA7CF003E6EA6 /* 04_String_isSubsequence */,
-				5629BDB529CCA82C003E6EA6 /* main.swift */,
+				5629BDC429D349D4003E6EA6 /* main.swift */,
 			);
 			path = practice_leetcode;
 			sourceTree = "<group>";
@@ -164,7 +175,8 @@
 			files = (
 				5629BDB329CB2A07003E6EA6 /* 04_String_isSubsequence.swift in Sources */,
 				567D2E1C296DA63000E7B594 /* 03_Isomorphic Strings.swift in Sources */,
-				5629BDB629CCA82C003E6EA6 /* main.swift in Sources */,
+				5629BDC529D349D4003E6EA6 /* main.swift in Sources */,
+				5629BDB629CCA82C003E6EA6 /* LinkedList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
