@@ -14,36 +14,10 @@
             filePath = "practice_leetcode/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B9332A34-8368-4BC6-BF0D-65E1F0334423"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "practice_leetcode/main.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EBB9B7A5-5733-4613-B14B-B7BC5D741CF7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "practice_leetcode/main.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64">
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "mergeTwoLists(_:_:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -56,8 +30,57 @@
             filePath = "practice_leetcode/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25">
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "D76FB13F-49CF-48CF-8CC0-7A52F2E4D136 - 30ef00d863e42aa5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "practice_leetcode.ListNode.init() -&gt; practice_leetcode.ListNode"
+                  moduleName = "practice_leetcode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heojeong-wook/swift/ownProject/practice_leetcode/practice_leetcode/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "D76FB13F-49CF-48CF-8CC0-7A52F2E4D136 - ab6041605bd94b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "practice_leetcode.ListNode.init(Swift.Int) -&gt; practice_leetcode.ListNode"
+                  moduleName = "practice_leetcode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heojeong-wook/swift/ownProject/practice_leetcode/practice_leetcode/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "D76FB13F-49CF-48CF-8CC0-7A52F2E4D136 - 53b420ce029db44b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "practice_leetcode.ListNode.init(Swift.Int, Swift.Optional&lt;practice_leetcode.ListNode&gt;) -&gt; practice_leetcode.ListNode"
+                  moduleName = "practice_leetcode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heojeong-wook/swift/ownProject/practice_leetcode/practice_leetcode/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "62">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -70,22 +93,42 @@
             filePath = "practice_leetcode/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B65D9567-7885-4374-83A1-64DD7C8A898B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "practice_leetcode/main.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62">
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "D6E96C4B-C2CA-4347-B7B1-A0288F19A60D - 9a8cc2ebd8f04e32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "practice_leetcode.ListNode.__allocating_init(Swift.Int) -&gt; practice_leetcode.ListNode"
+                  moduleName = "practice_leetcode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heojeong-wook/swift/ownProject/practice_leetcode/practice_leetcode/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  uuid = "D6E96C4B-C2CA-4347-B7B1-A0288F19A60D - ab6041605bd94b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "practice_leetcode.ListNode.init(Swift.Int) -&gt; practice_leetcode.ListNode"
+                  moduleName = "practice_leetcode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heojeong-wook/swift/ownProject/practice_leetcode/practice_leetcode/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
